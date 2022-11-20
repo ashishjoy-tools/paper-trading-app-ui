@@ -1,0 +1,55 @@
+.stock-search-section {
+    background-color: #ffffff;
+    border-color: #d0d7de;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 30%;
+    padding: 10px;
+}
+
+.stock-tr {
+    background-color: #ffffff;
+    border-color: #d0d7de;
+    border-style: solid;
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.stock-tr button {
+    background: white;
+}
+
+.stock-tr:hover {
+    background: #bbd9fb;
+}
+
+.stock-tr-header {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    color: white;
+    background-color: #24292f;
+    line-height: 2;
+}
+
+.symbol {
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.profit {
+    color: #089981
+}
+
+.loss {
+    color: #f23645;
+}
+
+.stock-search-section input {
+    width: 98%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
