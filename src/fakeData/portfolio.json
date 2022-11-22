@@ -1,0 +1,44 @@
+{
+    "investment": 100000,
+    "currentValue": 104563,
+    "overallReturn": 4563,
+    "amountAvailableToInvest": 5674,
+    "stocks": [
+        {
+            "name": "Indian Energy Exchange",
+            "symbol": "IEE",
+            "currentValue": 141.85,
+            "boughtAt": 244.33,
+            "noOfShareHold": 6,
+            "return": -614.56,
+            "returnPercentage": -41.92
+        },
+        {
+            "name": "Tata Steel",
+            "symbol": "TAS",
+            "currentValue": 104.30,
+            "boughtAt": 102.05,
+            "noOfShareHold": 20,
+            "return": 44.90,
+            "returnPercentage": 2.20
+        },
+        {
+            "name": "LIC",
+            "symbol": "LIC",
+            "currentValue": 2520.00,
+            "boughtAt": 684.43,
+            "noOfShareHold": 4,
+            "return": -217.90,
+            "returnPercentage": -7.95
+        },
+        {
+            "name": "State Bank Of India",
+            "symbol": "SBI",
+            "currentValue": 596.80,
+            "boughtAt": 516.69,
+            "noOfShareHold": 3,
+            "return": 240.62,
+            "returnPercentage": 15.53
+        }
+    ]
+}

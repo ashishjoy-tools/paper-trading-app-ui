@@ -46,3 +46,8 @@
 .gist-desc {
     display: flex;
 }
+
+.stocks {
+    display: flex;
+    padding: 5px;
+}

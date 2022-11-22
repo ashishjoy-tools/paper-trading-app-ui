@@ -1,0 +1,39 @@
+.stock-card {
+    background-color: #ffffff;
+    border-color: #d0d7de;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 250px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.stock-name {
+    font-weight: bold;
+    display: flex;
+    padding-left: 5px;
+}
+
+.buy-sell {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-sell button {
+    width: 115px;
+    font-size: bold;
+    border-radius: 2px;
+}
+
+.buy-btn {
+    background-color: #089981;
+    color: white;
+    margin-right: 5px;
+}
+
+.sell-btn {
+    background-color: #f23645;
+    color: white;
+    margin-left: 5px;
+}
