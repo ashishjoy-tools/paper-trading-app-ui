@@ -1,0 +1,48 @@
+.portfolio-section {
+    background-color: #ffffff;
+    border-color: #d0d7de;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    height: 80vh;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.portfolio-heading {
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #d0d7de;
+    border-radius: 6px;
+    font-size: 30px;
+    color: white;
+    background-color: #24292f;
+    align-items: center;
+}
+
+.portfolio-gist {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.gist-row {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border-color: #d0d7de;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.gist-title {
+    display: flex;
+    padding-left: 5px;
+}
+
+.gist-desc {
+    display: flex;
+}

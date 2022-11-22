@@ -1,12 +1,17 @@
 import './App.css';
 import AppHeader from "./components/AppHeader";
+import Portfolio from './components/Portfolio';
 import StockSearchSection from "./components/StockSearchModal";
 
 function App() {
     return (
         <div className="App">
-            <AppHeader/>
-            <StockSearchSection/>
+            <AppHeader />
+            <div className='app-body'>
+                <StockSearchSection />
+                <Portfolio />
+            </div>
+            
         </div>
     );
 }

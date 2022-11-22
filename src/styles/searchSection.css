@@ -19,6 +19,7 @@
 
 .stock-tr button {
     background: white;
+    cursor: pointer;
 }
 
 .stock-tr:hover {
